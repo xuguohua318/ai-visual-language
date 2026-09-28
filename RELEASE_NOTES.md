@@ -14,8 +14,8 @@
 
 ## Release assets
 
-- `工业视觉与AI影像语言库.xlsx`：原始完整工作簿
-- `抽象视觉.pdf`：原始视觉参考 PDF
+- `industrial-visual-ai-language-library.xlsx`：原始完整工作簿（原文件名：`工业视觉与AI影像语言库.xlsx`）
+- `abstract-visual-reference.pdf`：原始视觉参考 PDF（原文件名：`抽象视觉.pdf`）
 - `SHA256SUMS.txt`：原始文件校验值
 
 ---
