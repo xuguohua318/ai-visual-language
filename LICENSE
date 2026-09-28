@@ -1,0 +1,21 @@
+# Dual license
+
+This repository uses two licenses.
+
+## Content, data, and images
+
+The vocabulary, datasets, explanations, prompt examples, and images in `data/` and `docs/assets/` are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Copyright © 2026 xuguohua318
+
+You may share and adapt the material for any purpose, including commercially, provided that appropriate credit is given, a link to the license is supplied, and changes are indicated.
+
+License text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested attribution:
+
+> AI Visual Language Library by xuguohua318, licensed under CC BY 4.0. https://github.com/xuguohua318/ai-visual-language
+
+## Website and scripts
+
+The source code in `docs/*.html`, `docs/*.css`, `docs/*.js`, and `scripts/` is licensed under the MIT License. See `LICENSE-CODE`.

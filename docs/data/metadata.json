@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "counts": {
+    "terms": 538,
+    "promptTemplates": 41,
+    "abstractMappings": 24,
+    "abstractVisuals": 129,
+    "availableAbstractImages": 121,
+    "missingAbstractImages": 8
+  },
+  "missingAbstractImageIds": [
+    49,
+    50,
+    51,
+    65,
+    69,
+    72,
+    115,
+    120
+  ],
+  "sourceFiles": {
+    "工业视觉与AI影像语言库.xlsx": {
+      "sha256": "1825da5158c1c527e43a76b49c2e87f02feed756f2292caf5c222eba97635f65",
+      "bytes": 5624507
+    },
+    "抽象视觉.pdf": {
+      "sha256": "ed5d5b313d446674ddc37920538dc49a67c060aeca93ccce3e4967b69e0837c1",
+      "bytes": 360036154
+    }
+  }
+}

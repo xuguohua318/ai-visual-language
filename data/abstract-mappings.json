@@ -1,0 +1,218 @@
+[
+  {
+    "id": "MAP-001",
+    "concept": "汇聚",
+    "visualCarrier": "粒子、光丝、路径",
+    "coreAction": "从四周向中心集中",
+    "plainExplanation": "把分散力量整合到一起。",
+    "promptExample": "银蓝粒子从空间四周缓慢向中心汇聚，密度逐渐增加，最终形成完整机械圆环。",
+    "commonPairings": "整合、团结、集中、形成核心"
+  },
+  {
+    "id": "MAP-002",
+    "concept": "连接",
+    "visualCarrier": "光丝、节点网络、管线",
+    "coreAction": "建立连线并传递信号",
+    "plainExplanation": "让原本独立的对象产生明确关系。",
+    "promptExample": "多个工业节点依次亮起，青蓝光丝在节点之间建立连接，数据沿线路双向流动。",
+    "commonPairings": "协同、数字化、工业互联网"
+  },
+  {
+    "id": "MAP-003",
+    "concept": "生长",
+    "visualCarrier": "分枝、晶体、纤维",
+    "coreAction": "从小结构向外延伸",
+    "plainExplanation": "结构从无到有并持续增加。",
+    "promptExample": "微小晶核从中心出现，沿多个方向缓慢分枝生长，最终形成规则晶体结构。",
+    "commonPairings": "发展、创新、材料生成"
+  },
+  {
+    "id": "MAP-004",
+    "concept": "激活",
+    "visualCarrier": "灯光、能量流、脉冲",
+    "coreAction": "从局部到整体依次亮起",
+    "plainExplanation": "系统开始工作并进入有效状态。",
+    "promptExample": "设备核心首先亮起，青蓝能量沿内部通道向外传递，各模块按顺序逐级激活。",
+    "commonPairings": "启动、唤醒、技术生效"
+  },
+  {
+    "id": "MAP-005",
+    "concept": "突破",
+    "visualCarrier": "冲击波、破壳、门户",
+    "coreAction": "穿透边界并向外释放",
+    "plainExplanation": "打破限制并进入新的状态。",
+    "promptExample": "中心能量点突然增强，环形冲击波击穿外层透明屏障，摄影机随即穿过裂口。",
+    "commonPairings": "创新、破局、跨越、释放"
+  },
+  {
+    "id": "MAP-006",
+    "concept": "传播",
+    "visualCarrier": "涟漪、波、光轨",
+    "coreAction": "从一点向外连续扩散",
+    "plainExplanation": "信息或影响从源头传向更大范围。",
+    "promptExample": "一个青蓝脉冲从设备核心发出，同心光环向外扩散并依次点亮周围节点。",
+    "commonPairings": "信号、影响、扩散、覆盖"
+  },
+  {
+    "id": "MAP-007",
+    "concept": "融合",
+    "visualCarrier": "两股流体、软体、光带",
+    "coreAction": "接触后合并为连续整体",
+    "plainExplanation": "不同力量或系统结合成一个新整体。",
+    "promptExample": "两股银蓝流体从左右靠近，接触后自然融合为一条连续液态金属丝带。",
+    "commonPairings": "跨界、协同、合并、一体化"
+  },
+  {
+    "id": "MAP-008",
+    "concept": "重构",
+    "visualCarrier": "粒子、体素、模块",
+    "coreAction": "分解后按新规则重新组合",
+    "plainExplanation": "原有结构被重新组织并升级。",
+    "promptExample": "旧设备体素化分解，规则立方单元重新排列，最终重构成更精密的新设备。",
+    "commonPairings": "转型、升级、再设计"
+  },
+  {
+    "id": "MAP-009",
+    "concept": "秩序",
+    "visualCarrier": "阵列、网格、同步运动",
+    "coreAction": "从散乱变为规则排列",
+    "plainExplanation": "用统一规则管理复杂元素。",
+    "promptExample": "散乱金属模块逐步校正方向和间距，最终形成精密矩形阵列并同步运行。",
+    "commonPairings": "标准化、精密、制造、规则"
+  },
+  {
+    "id": "MAP-010",
+    "concept": "混沌",
+    "visualCarrier": "湍流、噪声、乱粒子",
+    "coreAction": "随机碰撞和无序变化",
+    "plainExplanation": "系统缺少稳定方向和结构。",
+    "promptExample": "大量银灰粒子在空间中随机碰撞和翻滚，路径互相交叉，密度持续不规则变化。",
+    "commonPairings": "无序、不稳定、未知、扰动"
+  },
+  {
+    "id": "MAP-011",
+    "concept": "从混沌到秩序",
+    "visualCarrier": "随机粒子、网格、阵列",
+    "coreAction": "无序运动逐步对齐",
+    "plainExplanation": "技术把复杂问题转化为稳定规则。",
+    "promptExample": "无序漂浮的银色粒子缓慢汇聚，运动轨迹逐渐整齐，最终排列成精密规则网格。",
+    "commonPairings": "治理、优化、制造升级"
+  },
+  {
+    "id": "MAP-012",
+    "concept": "核心",
+    "visualCarrier": "发光球、中心圆环",
+    "coreAction": "所有路径指向中心",
+    "plainExplanation": "突出最关键的技术或动力来源。",
+    "promptExample": "多条青蓝能量路径从四周汇入中心发光球，外围圆环稳定旋转并保护核心。",
+    "commonPairings": "技术核心、能源核心、中心系统"
+  },
+  {
+    "id": "MAP-013",
+    "concept": "循环",
+    "visualCarrier": "圆环、轨道、闭合流线",
+    "coreAction": "沿闭合路径持续运行",
+    "plainExplanation": "资源或系统不断返回并继续工作。",
+    "promptExample": "银蓝能量沿闭合圆环持续流动，每完成一圈亮度轻微脉冲一次。",
+    "commonPairings": "闭环、可持续、周期、回流"
+  },
+  {
+    "id": "MAP-014",
+    "concept": "无限",
+    "visualCarrier": "莫比乌斯环、无限符号",
+    "coreAction": "沿连续表面无尽循环",
+    "plainExplanation": "表达没有终点的延伸和可能性。",
+    "promptExample": "银色莫比乌斯环悬浮旋转，青蓝高光沿唯一连续表面不断循环，没有起点和终点。",
+    "commonPairings": "无限可能、连续、永续"
+  },
+  {
+    "id": "MAP-015",
+    "concept": "进化",
+    "visualCarrier": "Morph、生长、重构",
+    "coreAction": "连续变形并提升复杂度",
+    "plainExplanation": "结构在保留关系的同时逐步升级。",
+    "promptExample": "基础几何体持续平滑变形，内部结构逐级增加，最终进化为精密机械组件。",
+    "commonPairings": "迭代、升级、演化、技术进步"
+  },
+  {
+    "id": "MAP-016",
+    "concept": "未来",
+    "visualCarrier": "透明体、悬浮、门户",
+    "coreAction": "进入陌生但有秩序的新空间",
+    "plainExplanation": "通过新材料和空间关系表达前沿技术。",
+    "promptExample": "透明机械核心悬浮在黑色空间，前方门户缓慢开启，内部出现洁净未来工厂。",
+    "commonPairings": "近未来、前沿、未来制造"
+  },
+  {
+    "id": "MAP-017",
+    "concept": "速度",
+    "visualCarrier": "光迹、隧道、拉伸线",
+    "coreAction": "沿纵深方向快速穿越",
+    "plainExplanation": "强调效率、性能和快速变化。",
+    "promptExample": "摄影机沿青蓝光隧道高速前进，两侧光迹快速拉长并从画面边缘掠过。",
+    "commonPairings": "效率、性能、高速、加速"
+  },
+  {
+    "id": "MAP-018",
+    "concept": "精密",
+    "visualCarrier": "规则网格、微距、阵列",
+    "coreAction": "小尺度结构准确对齐",
+    "plainExplanation": "强调尺寸、间距和运动控制的准确性。",
+    "promptExample": "微距镜头展示细密机械阵列，各单元间距一致并按严格顺序同步运动。",
+    "commonPairings": "工程能力、微米级、对齐、控制"
+  },
+  {
+    "id": "MAP-019",
+    "concept": "能量",
+    "visualCarrier": "发光、脉冲、流体",
+    "coreAction": "沿路径流动并在节点释放",
+    "plainExplanation": "把看不见的动力变成可见过程。",
+    "promptExample": "青蓝能量从左侧持续流入设备核心，到达中心后形成一次克制环形脉冲。",
+    "commonPairings": "动力、激活、传输、释放"
+  },
+  {
+    "id": "MAP-020",
+    "concept": "智能",
+    "visualCarrier": "节点、数据流、神经网络",
+    "coreAction": "感知后计算并输出响应",
+    "plainExplanation": "系统识别信息并根据结果作出变化。",
+    "promptExample": "检测节点捕捉零件位置，数据流进入神经网络计算，机械模块随结果自动调整。",
+    "commonPairings": "AI、算法、识别、自动决策"
+  },
+  {
+    "id": "MAP-021",
+    "concept": "协同",
+    "visualCarrier": "多路径、多模块、联动节点",
+    "coreAction": "不同对象按统一节奏响应",
+    "plainExplanation": "多个部分共同完成一个目标。",
+    "promptExample": "三条独立能量路径同时汇入中心，各机械模块按相同节奏依次响应并保持同步。",
+    "commonPairings": "系统协作、联动、同步、配合"
+  },
+  {
+    "id": "MAP-022",
+    "concept": "守护",
+    "visualCarrier": "包裹结构、环形力场",
+    "coreAction": "在主体外形成稳定保护层",
+    "plainExplanation": "表达安全、可靠和边界防护。",
+    "promptExample": "透明环形力场从下向上包裹设备核心，外部粒子接近后被平滑推开。",
+    "commonPairings": "安全、保护、屏障、可靠"
+  },
+  {
+    "id": "MAP-023",
+    "concept": "透明",
+    "visualCarrier": "玻璃、剖切、X-Ray",
+    "coreAction": "外层变透明并显示内部",
+    "plainExplanation": "把隐藏结构变成可见信息。",
+    "promptExample": "设备外壳保持完整并逐渐半透明，内部机械结构清晰显现，外轮廓仍然可见。",
+    "commonPairings": "开放、可见、内部结构、信息公开"
+  },
+  {
+    "id": "MAP-024",
+    "concept": "跨越",
+    "visualCarrier": "门、隧道、裂缝",
+    "coreAction": "穿过明确边界进入新空间",
+    "plainExplanation": "从一个阶段进入另一个阶段。",
+    "promptExample": "摄影机缓慢靠近发光门户，随后加速穿过边界，进入更开阔的未来工业空间。",
+    "commonPairings": "进入、转场、新阶段、突破"
+  }
+]

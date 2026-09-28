@@ -1,0 +1,35 @@
+name: 补充缺失图片
+description: 为标记“图片待补”的抽象视觉词条提交参考图。
+title: "[Image] "
+labels: [image, contribution]
+body:
+  - type: input
+    id: term
+    attributes:
+      label: 词条编号与名称
+      placeholder: "例如：#49 云雾 / Cloud"
+    validations:
+      required: true
+  - type: textarea
+    id: image
+    attributes:
+      label: 图片或公开链接
+      description: 建议横向 16:9、至少 1280×720、无水印。
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: 授权确认
+      options:
+        - 我是作者，并同意按 CC BY 4.0 发布
+        - 图片已有与 CC BY 4.0 兼容的公开许可
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 作者与来源
+      description: 请给出用于署名的姓名/账号及原始来源链接。
+    validations:
+      required: true

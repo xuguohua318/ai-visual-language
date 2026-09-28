@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="538 个中英双语视觉词条，帮助 AI 图片、视频与工业视觉创作者准确描述画面。">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:title" content="AI 视觉语言库 · AI Visual Language Library">
+  <meta property="og:description" content="把模糊想法，变成 AI 能理解的画面描述。">
+  <meta property="og:image" content="assets/social-preview.png">
+  <title>AI 视觉语言库 · AI Visual Language Library</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#library">跳至词条库</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回首页">
+      <span class="brand-mark" aria-hidden="true">VL</span>
+      <span><strong>AI 视觉语言库</strong><small>AI Visual Language Library</small></span>
+    </a>
+    <nav aria-label="主要导航">
+      <a href="#library">在线图鉴</a>
+      <a href="../data/terms.csv">下载数据</a>
+      <a id="github-link" href="https://github.com/xuguohua318/ai-visual-language">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/hero.webp" alt="粒子、流体、晶体和网络等抽象视觉参考拼图">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">OPEN VISUAL VOCABULARY · 开放视觉词汇</p>
+        <h1 id="hero-title">把模糊想法，变成<br><span>AI 能理解的画面描述</span></h1>
+        <p class="hero-copy">面向 AI 图片、视频与工业视觉创作者的中英双语语言库。查找准确术语，理解视觉含义，复制可直接使用的提示词。</p>
+        <form class="hero-search" id="hero-search-form" role="search">
+          <label class="sr-only" for="hero-search">搜索视觉词条</label>
+          <input id="hero-search" type="search" autocomplete="off" placeholder="试试：液态金属、低机位、粒子汇聚、volumetric light…">
+          <button type="submit">搜索词条</button>
+        </form>
+        <div class="hero-actions">
+          <a class="button primary" href="#library">探索 538 个词条</a>
+          <a class="button ghost" href="https://github.com/xuguohua318/ai-visual-language" target="_blank" rel="noreferrer">在 GitHub 上 Star</a>
+        </div>
+      </div>
+      <dl class="hero-stats" aria-label="项目数据">
+        <div><dt>538</dt><dd>视觉词条</dd></div>
+        <div><dt>129</dt><dd>抽象概念</dd></div>
+        <div><dt>121</dt><dd>参考图片</dd></div>
+        <div><dt>41</dt><dd>提示词模板</dd></div>
+      </dl>
+    </section>
+
+    <section class="promise" aria-label="项目特点">
+      <article><span>01</span><h2>先找到词</h2><p>用中英文、类别或日常描述搜索，快速定位脑海里的视觉感觉。</p></article>
+      <article><span>02</span><h2>再看懂它</h2><p>每个词条都有大白话解释、常见搭配与视觉参考，减少术语门槛。</p></article>
+      <article><span>03</span><h2>直接描述给 AI</h2><p>复制提示词示例，再替换主体、场景与动作，形成自己的画面指令。</p></article>
+    </section>
+
+    <section class="library-section" id="library" aria-labelledby="library-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">BROWSE THE LIBRARY</p><h2 id="library-title">从词汇到画面</h2></div>
+        <p>所有内容都可搜索、复制和下载。词条与图片采用 CC BY 4.0，欢迎署名复用与共同完善。</p>
+      </div>
+
+      <div class="view-tabs" role="tablist" aria-label="内容类型">
+        <button class="view-tab active" data-view="terms" role="tab" aria-selected="true">视觉词条 <span>538</span></button>
+        <button class="view-tab" data-view="templates" role="tab" aria-selected="false">提示词模板 <span>41</span></button>
+        <button class="view-tab" data-view="mappings" role="tab" aria-selected="false">抽象意象映射 <span>24</span></button>
+      </div>
+
+      <div class="filters" id="term-filters">
+        <label class="search-field"><span class="sr-only">搜索</span><input id="search" type="search" placeholder="搜索名称、解释、提示词或搭配"></label>
+        <label><span>模块</span><select id="module-filter"><option value="">全部模块</option></select></label>
+        <label><span>分类</span><select id="category-filter"><option value="">全部分类</option></select></label>
+        <label><span>图片</span><select id="image-filter"><option value="">全部词条</option><option value="available">有参考图</option><option value="missing">图片待补</option><option value="none">纯文字词条</option></select></label>
+        <button class="reset-button" id="reset-filters" type="button">清除筛选</button>
+      </div>
+
+      <div class="results-bar"><p id="result-count" aria-live="polite">正在载入词条…</p><p>点击卡片查看完整提示词</p></div>
+      <div class="card-grid" id="content-grid" aria-live="polite"></div>
+      <button class="load-more" id="load-more" type="button" hidden>显示更多</button>
+    </section>
+
+    <section class="cta-section">
+      <div><p class="eyebrow">MAKE THE VOCABULARY BETTER</p><h2>语言越准确，想象越自由。</h2><p>如果这个词库让你更容易描述画面，欢迎在 GitHub 点一颗 Star，或提交缺失图片和新词条。</p></div>
+      <div class="cta-actions"><a class="button primary" href="https://github.com/xuguohua318/ai-visual-language" target="_blank" rel="noreferrer">Star 项目</a><a class="button ghost" href="https://github.com/xuguohua318/ai-visual-language/issues/new/choose" target="_blank" rel="noreferrer">参与贡献</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>AI 视觉语言库 · AI Visual Language Library</p>
+    <p>内容 CC BY 4.0 · 代码 MIT · <a href="https://github.com/xuguohua318">xuguohua318</a></p>
+  </footer>
+
+  <dialog id="term-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" id="dialog-close" type="button" aria-label="关闭详情">×</button>
+    <div id="dialog-content"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>

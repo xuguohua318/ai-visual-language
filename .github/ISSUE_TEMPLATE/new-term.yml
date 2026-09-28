@@ -1,0 +1,34 @@
+name: 提交新词条
+description: 建议一个可帮助创作者更准确描述画面的视觉词条。
+title: "[New term] "
+labels: [content, enhancement]
+body:
+  - type: input
+    id: names
+    attributes:
+      label: 中英文名称
+      placeholder: 中文名称 / English name
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: 建议模块与分类
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: 一句大白话解释
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: AI 提示词示例
+    validations:
+      required: true
+  - type: input
+    id: pairings
+    attributes:
+      label: 常见搭配

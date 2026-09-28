@@ -1,0 +1,28 @@
+name: 修正词条
+description: 报告翻译、解释、分类或提示词中的问题。
+title: "[Correction] "
+labels: [content, correction]
+body:
+  - type: input
+    id: term
+    attributes:
+      label: 词条 ID
+      placeholder: AVL-0001
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前内容与问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: 建议修改
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: 参考依据（可选）

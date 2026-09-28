@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this visual vocabulary, please cite the project."
+title: "AI Visual Language Library"
+type: dataset
+version: 1.0.0
+date-released: 2026-09-28
+authors:
+  - name: "xuguohua318"
+repository-code: "https://github.com/xuguohua318/ai-visual-language"
+url: "https://xuguohua318.github.io/ai-visual-language/"
+license: CC-BY-4.0
